@@ -40,6 +40,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -52,13 +55,6 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
-}
-
-/* Main content */
-main {
-    background-color: lightblue;
-    /* Make main element take up any surplus space to push the footer down */
-    flex: 1 0 auto;
 }
 
 #menu {
@@ -84,6 +80,26 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
+    top: 100%;
+}
+
+/* nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+/* Main content */
+main {
+    background-color: lightblue;
+    /* Make main element take up any surplus space to push the footer down */
+    flex: 1 0 auto;
 }
 
 /* Footer */
