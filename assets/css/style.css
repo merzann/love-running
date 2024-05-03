@@ -138,9 +138,16 @@ footer {
         margin: 0 0.5rem;
     }
 
-    /* Main contengt */
+    /* Main content */
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
+    }
+}
+
+/* Media query: tablets and larger (992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 }
