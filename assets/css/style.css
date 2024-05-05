@@ -28,7 +28,7 @@ h3 {
 }
 
 .hidden-heading {
-    display:none;
+    display: none;
 }
 
 /* Header */
@@ -190,6 +190,16 @@ main {
     color: #fafafa;
 }
 
+/* Gallery page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -273,7 +283,7 @@ main {
     }
 }
 
-@media screen and (min-width: 1200px) {    
+@media screen and (min-width: 1200px) {
     /* Reasons section */
     #benefits {
         display: flex;
