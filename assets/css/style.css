@@ -27,10 +27,6 @@ h3 {
     color: #252525;
 }
 
-.hidden-heading {
-    display: none;
-}
-
 /* Header */
 header {
     background-color: #ffffff;
@@ -282,11 +278,11 @@ main {
         text-align: end;
         align-self: flex-end;
     }
-}
 
-/* Gallery */
-#photos {
-    column-count: 3;
+    /* Gallery */
+    #photos {
+        column-count: 3;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -294,15 +290,14 @@ main {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+
+    /* Gallery */
+    #photos {
+        column-count: 4;
+    }
 }
 
-/* Gallery */
-
-#photos {
-    column-count: 4;
-}
-
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {    
     /* Reasons section */
     #benefits {
         display: flex;
