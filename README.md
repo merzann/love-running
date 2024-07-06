@@ -60,23 +60,49 @@ In this section, you should go over the different parts of your project, and des
 
 ![Sign Up](media/love_running_signup.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Features Left to Implement
 
 - Another feature idea
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+## Responsiveness
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+    This part of the testing was done in Lighthouse throughout the project to ensure the content of each page remained fully responsive and 100% visible after each amendment. The testing tool was set to the most common Samsung, Apple and Google products to cover the full range of screens from the smallest being the Galaxy fold Z 5 (344px) to a curved 27" external monitor.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+  ### Functionality
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+  Features checked during testing included checking:
+
+    Nav Bar
+
+      - that up until screens width 768px (tablets and larger mobiles) the menu is hidden in the burger icon in the upper left corner and expands and collaps when clicked
+
+      - that upon expanding the menu the solid line indicating the part of the page the user is currently on is visible under the correct active menu item
+
+      - that from screen width 768px onwards the nav bar is spread out and adjusts automatically to take up the available space and the features of a solid line under the menu item and the menu items changing colours is inherited
+
+      - that the hyperlink linked to each each menu item and the logo is working as expected and connect to the correct parts of the webpage
+
+
+    Homepage
+
+      - that the hero image adjusts proportional to the screen size and is not distorted on either screen
+      - that content and image in the middle section adjust proprotional to the screen size, the conetent remains fully visible and readable at all times
+      - that the image grid adjusts to the screen size with all images staying visible and are not distorted on either screen
+      - that the social icons are clickable and embedded the hyperlinks open up to a new page
+
+
+    Gallery
+
+      - that all images adjust proportionally to the screen size and are spread out to fill the additional space on larger screens
+
+
+    Sign form
+
+    - that the fields mandatory to fill in are working as expected so the user cannot submit an incorrect or incomplete form
+    - that the radio buttons work as expected
+    - that the submit button submits the form when clicked
 
 
 ### Validator Testing 
@@ -88,11 +114,9 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+no bugs known
 
-## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+## Deployment 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
@@ -105,11 +129,11 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 ## Credits 
 
 - The structure of the README was taken from the template provided by Code Institute
-- The project was a Walkthrough project with the source code provided after each challenge except for the signup page challenge for which the HTML and CSS had to be written and implemented by me, the student.
+- The project was a Walkthrough project except for the signup page challenge for which the HTML and CSS had to be written and implemented by me, the student.
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
+- The text for the Homepage was taken from Wikipedia Article A
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
